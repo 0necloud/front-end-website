@@ -1,0 +1,189 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/*
+
+   CA2 - Applied AI and Analytics Training and Consultancy
+   Author: Hew Yi Yun
+   Date:   12 July 2020
+   
+   Filename: educate.css
+
+*/
+
+
+/* Structural Styles */
+
+html {
+   background-image: url(../Images/educateBg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+body {
+   margin: 0 auto;
+   width: 100%;
+   max-width: 1020px;
+   min-width: 320px;
+   background-color: rgba(0,0,0,0.3);
+   box-shadow: white 0px 0px 20px;
+}
+
+#wrapper {
+   position: relative;
+   overflow-x: hidden;
+}
+
+body header img {
+   width: 100%;
+	display: block;
+	margin: 0;
+}
+
+/* Container holding the image and the text */
+#heading {
+   position: relative;
+   text-align: center;
+   color: white;
+}
+ 
+ 
+/* Centered text */
+.centered {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size:5em;
+   font-family: 'Russo One', sans-serif;
+}
+
+@media (max-width:629px) {
+   .centered {
+      font-size:2em;
+   }
+}
+
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, ol, p, section, span, ul {
+
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+/* Header Navigation */
+
+.container {
+   margin:0;
+   padding:0;
+   min-width: 100%;
+}
+
+.navbar-toggler-icon {
+   color:white;
+}
+
+.navbar {
+   padding:0px;
+   background-color: rgba(0,0,0,0.6);
+}
+
+.nav-item {
+   display: table-cell;
+   text-align: center;
+   font-size:1.2em;
+   letter-spacing: 0.1em;
+   padding: 0px;
+}
+
+
+
+.navbar a:link, .navbar a:visited {
+   color: rgb(185, 45, 162);
+}
+
+
+.navbar a:hover, .navbar a:active {
+  color: red;
+}
+
+/*Side Banner Styles*/
+
+div img {
+   margin-top: 30px;
+   margin-left:10px;
+   width:90%; 
+   height:90%;
+}
+
+@media (max-width:629px) {
+   img#eduImg {
+     display: none;
+   }
+}
+
+/*Column Styles*/
+
+.col-md-9 {
+   position: relative;
+   right:10px;
+}
+
+@media (max-width:629px) {
+   .col-md-9 {
+      position: relative;
+      right:0px;
+   }
+}
+
+/*Section Styles*/
+
+div section {
+   background-color: rgba(136, 16, 86, 0.8);
+   margin: 30px 0px 0px 0px;
+   padding: 0px 10px;
+   width:100%;
+   color:whitesmoke;
+   box-shadow: white 0px 0px 20px;
+   text-shadow: black 1px 1px 1px;
+} 
+
+div section * {
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+/*Video Styles*/
+
+iframe {
+   padding-top: 20px;
+   border:0;
+}
+
+/*Bottom Text Styles*/
+
+#learnmore {
+   margin: 10px 20px 10px 20px;
+   font-weight: bold;
+   color:white;
+   text-shadow: purple 0px 0px 20px;
+}
+
+
+/*Footer Styles*/
+footer {
+   background-color: black;
+   color: white;
+}
+
+/* 
+
+   References :
+
+   Background: https://blogs.icrc.org/law-and-policy/2019/03/21/legal-reviews-weapons-means-methods-warfare-artificial-intelligence-16-elements-consider/
+
+*/

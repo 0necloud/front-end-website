@@ -1,0 +1,219 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/*
+
+   FED CA2 - Applied AI and Analytics Training and Consultancy
+   Author: Hew Yi Yun
+   Date:   12 July 2020
+   
+   Filename: about.css
+
+*/
+
+
+/* Structural Styles */
+
+html {
+   background-image: url(../Images/aboutBg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+body {
+   margin: 0 auto;
+   width: 100%;
+   max-width: 1020px;
+   min-width: 320px;
+   background-color: rgba(8, 4, 70, 0.7);
+   box-shadow: white 0px 0px 20px;
+}
+
+#wrapper {
+   position: relative;
+   overflow-x: hidden;
+}
+
+body header img {
+   width: 100%;
+	display: block;
+	margin: 0;
+}
+
+/* Container holding the image and the text */
+#heading {
+   position: relative;
+   text-align: center;
+   color: white;
+}
+ 
+ 
+/* Centered text */
+.centered {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size:5em;
+   font-family: 'Russo One', sans-serif;
+}
+
+@media (max-width:629px) {
+   .centered {
+      font-size:2em;
+   }
+}
+
+
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, ol, p, section, span, ul {
+
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+/* Header Navigation */
+
+.container {
+   margin:0;
+   padding:0;
+   min-width: 100%;
+}
+
+.navbar-toggler-icon {
+   color:white;
+}
+
+.navbar {
+   padding:0px;
+   background-color: rgba(0,0,0,0.6);
+}
+
+.nav-item {
+   display: table-cell;
+   text-align: center;
+   font-size:1.2em;
+   letter-spacing: 0.1em;
+   padding: 0px;
+}
+
+
+
+.navbar a:link, .navbar a:visited {
+   color: rgb(185, 45, 162);
+}
+
+
+.navbar a:hover, .navbar a:active {
+  color: red;
+}
+
+/*Figure Styles*/
+
+#oldlogo {
+   margin-top: 20px;
+   width:90%;
+   box-shadow: black 0px 0px 10px;
+}
+
+.figure-caption {
+   position: relative;
+   right:5%;
+   color:white;
+}
+
+/*Text Styles*/
+
+p#info {
+   font-size: 1.2em;
+   letter-spacing: 0.1em;
+   width:86%;
+   position: relative;;
+   left:7%;
+   color:whitesmoke;
+} 
+
+/*Card Styles*/
+
+.card {
+   background-color: rgba(255,255,255,0.6);
+}
+
+.card img{
+   height:200px;
+}
+
+.card *{
+   color:black;
+}
+
+#carouselIndicators {
+   width:80%;
+   position: relative;
+   top:30px;
+   box-shadow:black 0px 0px 10px;
+   background-color: rgba(75, 75, 75, 0.6);
+   color:white;
+}
+
+#carouselIndicators img {
+   height: 400px;
+}
+
+@media (max-width:629px) {
+   #carouselIndicators img {
+      height: 200px;
+   }
+}
+
+#carouselIndicators h5 {
+   background-color: black;
+}
+
+/*Styles For Bottom Section*/
+
+#details {
+   padding-top:50px;
+   color:white;
+}
+
+#contact {
+   font-size:1.8em;
+}
+
+@media (max-width:629px) {
+   #reviews * {
+     text-align: center;
+   }
+}
+
+hr {
+   background-color: black;
+   width:90%;
+}
+
+iframe {
+   outline: 3px ridge white;
+   margin-bottom: 20px;
+   border:0;
+}
+
+
+/* Footer Styles*/
+footer {
+   background-color: black;
+   color: white;
+}
+
+/* 
+
+   References :
+
+   Background: https://yle.fi/uutiset/3-10605032
+
+
+*/
